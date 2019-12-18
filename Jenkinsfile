@@ -35,7 +35,7 @@ pipeline {
                                                                agent {
                                                                       docker {
                                                                               reuseNode false
-                                                                              image 'ubuntu'
+                                                                              image 'CentOS'
                                                                       }
                                                                 }
                                                                 steps {
